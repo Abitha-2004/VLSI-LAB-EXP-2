@@ -68,6 +68,30 @@ OUTPUT:
 ![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-2/assets/161303006/a8f7992e-77f2-4db7-ab3f-8ad3d26fb64d)
 ![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-2/assets/161303006/9126d413-2224-4f8d-b670-88c0914e5046)
 DECODER:
+~~~
+module decoder_struct(
+   input [2:0] a,
+  output [7:0] d
+   );
+wire x,y,z;
+not g1(z,a[0]);
+not g2(y,a[1]);
+not g3(x,a[2]);
+and g4(d[0],x,y,z);
+and g5(d[1],x,y,a[0]);
+and g6(d[2],x,a[1],z);
+and g7(d[3],x,a[1],a[0]);
+and g8(d[4],a[2],y,z);
+and g9(d[5],a[2],y,a[0]);
+and g10(d[6],a[2],a[1],z);
+and g11(d[7],a[2],a[1],a[0]);
+endmodule
+~~~
+OUTPUT:
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-2/assets/161303006/46cd29c7-73e7-40c0-9a75-623f6c4cce90)
+
+
+
 MULTIPLEXER:
 ~~~
 module mux_8to1(in,sel,out);
@@ -147,6 +171,10 @@ end
 endmodule
 ~~~
 OUTPUT:
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-2/assets/161303006/623cdbcb-1540-4da7-9b02-efc4265bc58b)
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-2/assets/161303006/f25e78d2-9f54-4778-8fe7-bc839059114a)
+
+
 
 
 
