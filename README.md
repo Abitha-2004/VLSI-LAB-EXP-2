@@ -174,25 +174,8 @@ OUTPUT:
 ![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-2/assets/161303006/623cdbcb-1540-4da7-9b02-efc4265bc58b)
 ![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-2/assets/161303006/f25e78d2-9f54-4778-8fe7-bc839059114a)
 
+RESULT:
+ Hence  ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR are simulated and sysnthesised using vivado 2023.1.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-OUTPUT WAVEFORM
- <<< PASTE YOUR OUTPUT WAVEFORM >>>
-
-RESULT
 
 
