@@ -89,6 +89,8 @@ endmodule
 ~~~
 OUTPUT:
 ![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-2/assets/161303006/46cd29c7-73e7-40c0-9a75-623f6c4cce90)
+![image](https://github.com/Abitha-2004/VLSI-LAB-EXP-2/assets/161303006/4d155cfb-24af-459e-b684-e5d8bbf2958e)
+
 
 
 
